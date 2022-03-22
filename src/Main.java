@@ -34,7 +34,7 @@ public class Main {
 			System.out.print("3. Salchipapa. \n");
 			System.out.print("4. Chorizo. \n");
 
-int plate  = reader.nextInt();
+			int plate  = reader.nextInt();
 			if(lastPlate == plate) {
 				isDuplicatedPlate = true;
 			}
@@ -60,5 +60,6 @@ int plate  = reader.nextInt();
 		int tip = (int)(price * 0.1);
 		System.out.println("Propina : " + tip);
 		System.out.println("Su cuenta es: " + price);
+		System.out.println("**************************************************");
 	}
 }
